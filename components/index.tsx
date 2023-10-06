@@ -72,9 +72,9 @@ const MohamedEhab: NextPage = () => {
   }, []);
 
   return (
-    <div className="bg-white w-[1440px] overflow-hidden flex flex-col items-center justify-start text-left text-base text-slategray font-inter">
+    <div className="bg-white w-full overflow-hidden flex flex-col items-center justify-start text-left text-base text-slategray font-inter">
       <main
-        className="bg-white w-[1440px] flex flex-col items-center justify-center pt-5 px-5 pb-10 box-border [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in] opacity-[0] hover:pt-5 hover:box-border"
+        className="bg-white w-full flex flex-col items-center justify-center pt-5 px-5 pb-10 box-border [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in] opacity-[0] hover:pt-5 hover:box-border"
         data-animate-on-scroll
       >
         <div className="self-stretch flex flex-row items-start justify-center">
