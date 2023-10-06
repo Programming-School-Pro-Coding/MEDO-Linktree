@@ -1,4 +1,4 @@
-import MeetupList from '../components'
+import MohamedEhab from '../components'
 
 export default function Home(props) {
   return (
