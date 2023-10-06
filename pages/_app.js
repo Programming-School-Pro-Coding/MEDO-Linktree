@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Head from "next/head";
 import "./global.css";
+import MohamedEhab from '../components'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
+      <MohamedEhab />
       <Component {...pageProps} />
     </Fragment>
   );
