@@ -1,6 +1,6 @@
 import MohamedEhab from '../components'
 
-export default function Home(props) {
+export default function Home() {
   return (
     <MohamedEhab />
   );
